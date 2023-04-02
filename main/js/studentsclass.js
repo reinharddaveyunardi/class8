@@ -100,7 +100,7 @@ const student= [
     id: 9,
     name: 'Jason T. W.',
     category : '8a',
-    img: '/images/students//user.png',
+    img: '/images/students/8a_students/jason.jpg',
 },
 
 //====================================================
@@ -118,7 +118,7 @@ const student= [
     id: 9,
     name: 'Jeremy Mauretz',
     category : '8a',
-    img: '/images/students/user.png',
+    img: '/images/students/8a_students/jeremy.jpg',
 },
 
 //====================================================
@@ -127,7 +127,7 @@ const student= [
     id: 9,
     name: 'Kalyca Caluella A.',
     category : '8a',
-    img: '/images/students/user.png',
+    img: '/images/students/8a_students/kalyca.jpg',
 },
 
 //====================================================
@@ -255,7 +255,7 @@ const student= [
     id: 12,
     name: 'Audrey Jacqueline T. G.',
     category : '8b',
-    img: '/images/students/user.png',
+    img: '/images/students/8b_students/audrey.jpg',
 },
 
 //====================================================
@@ -363,7 +363,7 @@ const student= [
     id: 15,
     name: 'Lionel Benstevi D.',
     category : '8b',
-    img: '/images/students/8b_students/lionel.jpg',
+    img: '/images/students/8b_students/lionel_b.jpg',
 },
 
 //====================================================
@@ -417,7 +417,7 @@ const student= [
     id: 15,
     name: 'Stanislaus Costca Avatar H',
     category : '8b',
-    img: '/images/students/user.png',
+    img: '/images/students/8b_students/avatar.jpg',
 },
 
 //====================================================
@@ -540,7 +540,7 @@ const student= [
     id: 22,
     name: 'Hans Aksana S.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/hans.jpg',
 },
 
 //====================================================
@@ -549,7 +549,7 @@ const student= [
     id: 22,
     name: 'Ida Bagus Putra S. M.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/putra.jpg',
 },
 
 //====================================================
@@ -558,7 +558,7 @@ const student= [
     id: 22,
     name: 'Jaysen Wesley',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/jaysen.jpg',
 },
 
 //====================================================
@@ -603,7 +603,7 @@ const student= [
     id: 22,
     name: 'Lionel Jeremi L. G.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/lionel_j.jpg',
 },
 
 //====================================================
@@ -612,7 +612,7 @@ const student= [
     id: 22,
     name: 'Marchel Timothy',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/marchel.jpg',
 },
 
 //====================================================
@@ -630,7 +630,7 @@ const student= [
     id: 22,
     name: 'Nehemia Novem G.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/novem.jpg',
 },
 
 //====================================================
@@ -639,7 +639,7 @@ const student= [
     id: 22,
     name: 'Oliver Katriel M.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/oliver.jpg',
 },
 
 //====================================================
@@ -675,7 +675,7 @@ const student= [
     id: 22,
     name: 'Yoel Ivander T.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/yoel.jpg',
 },
 
 //====================================================
