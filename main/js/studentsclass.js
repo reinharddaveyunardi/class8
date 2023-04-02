@@ -435,7 +435,7 @@ const student= [
     id: 15,
     name: 'Tobias Paramartha G',
     category : '8b',
-    img: '/images/students/8b_students/tobias.png',
+    img: '/images/students/8b_students/tobias.jpg',
 },
 
 //====================================================
