@@ -435,7 +435,7 @@ const student= [
     id: 15,
     name: 'Tobias Paramartha G.',
     category : '8b',
-    img: '/images/students/8b_students/tobias.png',
+    img: '/images/students/8b_students/tobias.jpg',
 },
 
 //====================================================
@@ -465,7 +465,7 @@ const student= [
     id: 16,
     name: 'Angel Nainggolan',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/angel.jpg',
 
 },
 
@@ -648,7 +648,7 @@ const student= [
     id: 22,
     name: 'Olivia Merari M.',
     category : '8c',
-    img: '/images/students/user.png',
+    img: '/images/students/8c_students/olivia.jpg',
 },
 
 //====================================================
