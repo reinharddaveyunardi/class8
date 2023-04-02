@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    background-color: rgb(244, 236, 236);
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    overflow: hidden;
+}
+#menu{
+    background: #004643;
+}
+.title{
+    padding: 0 30px;
+}
+#menu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -20px;
+}
+.title p{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: indianred;
+    margin: 0;
+}
+.border{
+    width: 80px;
+    height: 4px;
+    margin: 3px 0;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    background: coral;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 12px 0;
+    color: rgb(128, 129, 129);
+    font-weight: 300;
+    transition: all 0.3s ease;
+    
+}
+.nav a:hover{
+    background: #f9bc60;
+    color: black;
+}
+#nav{
+    background: whitesmoke;
+    overflow: auto;
+    height: calc(100vh - 86px);
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background: rgb(172, 57, 57);
+    z-index: 1;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.util i,.user i{
+    font-size: 18px;
+    margin: 0 16px;
+    border: 1px solid crimson;
+    padding: 8px 16px;
+    color: crimson;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#category-name,.item-menu{
+    margin: 10px;
+    font-size: 35px;   
+    color: coral;
+    font-family: 'Aclonica', sans-serif;
+}
+#item-card{
+    width: 180px;
+    height: 220px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #004643;
+    cursor: pointer;
+    transition: 0.5s all step-end;
+}
+#item-card:hover img{
+    transform: scale(1.2);
+}
+#card-top{
+    display: flex;
+    margin: 5px 0;
+    justify-content: space-between;
+}
+#item-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition: 0.5s all ease-in-out;
+}
+#item-name{
+    margin: 5px 0;
+    font-weight: 600;
+    color: #f9bc60;
+    font-size: 18px;
+    text-align: center;
+}
+.food-items{
+    display: none;
+}
+.item-menu{
+    margin: 0;
+    font-size: 30px;
+    margin-top: 40px;
+    color: red;
+    background: whitesmoke;
+}
+.list-name{
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(94, 43, 43);
+}

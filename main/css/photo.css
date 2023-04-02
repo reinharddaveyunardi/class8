@@ -1,0 +1,124 @@
+*,*:after,*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+  font-size: 16px;
+  margin: 0;
+  background: #000;
+  color: #fff;
+}
+
+.banner-area{
+  padding: 60px 0;
+  background:#1dd1a1;
+}
+.banner-area:after,
+.banner-area:before{
+  content: "";
+  display: table;
+}
+.banner-area:after{
+  clear: both;
+}
+
+.swiper-container {
+  width: 80%;
+  height: calc(100vh - 120px);
+  float:left;
+  transition:opacity .6s ease, transform .3s ease;
+}
+.main-slider .swiper-image{
+  width: 100%;
+  height: 100%;
+}
+.swiper-image-inner {
+  background-size: cover;
+  background-position: center center;
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  background-blend-mode: hue;
+  
+}
+.banner-content{
+  font-size: 24px;
+  max-width: 600px;
+  line-height: 1.4;
+  color: #fff;
+}
+.banner-content h2{
+  font-size: 40px;
+  margin:0 0 10px;
+}
+.banner-content p{ margin: 0 }
+.swiper-slide {
+  overflow: hidden;
+}
+.swiper-button-prev,
+.swiper-button-next{
+  width:44px;
+  opacity:0;
+  visibility:hidden;
+  transition: all 0.3s ease-out;
+}
+.swiper-button-prev{
+  transform:translateX(50px);
+}
+.swiper-button-next{
+  transform:translateX(-50px);
+}
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next{
+    transform:translateX(0);
+    opacity:1;
+    visibility:visible;
+}
+
+.slide-bgimg{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  margin: 0;
+  background-position:center;
+  background-size:cover;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: hue;
+  transition: all 0.5s ease-out;
+
+  padding:10px 20px;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.swiper-container.thumb-slider{
+  width:20%;
+  padding-left:5px;
+  
+}
+.swiper-container.thumb-slider .swiper-slide{
+  cursor:pointer;
+}
+.swiper-slide.swiper-slide-active .slide-bgimg{
+  background-color: transparent;
+}
+.content{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  
+}
+

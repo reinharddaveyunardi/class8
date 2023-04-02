@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="/css/homeroom.css">
+    
+    <title>Home Room</title>
+</head>
+<body>
+    <a href="home.html">
+        <button>Back</button>
+    </a>
+  <section>
+    <div class="swiper swipe container">
+      <div class="swiper-wrapper content">
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+              <img src="/images/homeroom/8a_homeroom/user.png" alt="Belum Ada">
+            </div>
+            <div class="media-icons" style="display: none;">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="name-profession">
+              <span class="name">Ms. Maria</span>
+              <span class="profession">Wali Kelas 8A</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+          <div class="card-content">
+            <div class="image">
+                <img src="/images/homeroom/8b_homeroom/user.png" alt="Belum Ada">
+            </div>
+            <div class="name-profession">
+              <span class="name">Ms. Brigitta</span>
+              <span class="profession">Wali Kelas 8B</span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="/images/homeroom/8c_homeroom/user.png" alt="Belum Ada">
+              </div>
+              <div class="name-profession">
+                <span class="name">Ms. Josephine<br>(Ms. Jojo)</span>
+                <span class="profession">Wali Kelas 8C</span>
+              </div>
+            </div>
+          </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swipe", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+</body>
+</html>
