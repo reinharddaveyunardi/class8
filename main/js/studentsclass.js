@@ -309,7 +309,7 @@ const student= [
     id: 15,
     name: 'Fransisco Timothy Butar B.',
     category : '8b',
-    img: '/images/students/8b_students/fransisco.jpg',
+    img: '/images/students/user.png',
 },
 
 //====================================================
