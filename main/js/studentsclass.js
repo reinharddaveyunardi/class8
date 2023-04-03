@@ -318,7 +318,7 @@ const student= [
     id: 15,
     name: 'George Washington Lee',
     category : '8b',
-    img: '/images/students/8b_students/george_l.jpg',
+    img: '/images/students/user.png',
 },
 
 //====================================================
